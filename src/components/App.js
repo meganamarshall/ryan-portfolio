@@ -1,6 +1,12 @@
 import React from 'react';
+import Header from './Header';
+import Menu from './Menu';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <section>
+      <Header />
+      <Menu />
+    </section>
+  );
 }
-  
