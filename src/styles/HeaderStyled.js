@@ -7,7 +7,7 @@ const HeaderStyled = styled.header `
   flex-direction: row;
   font-family: 'Playfair Display', serif;
   flex-wrap: wrap;
-  font-size: 3em;
+  font-size: 3.5em;
 
   h2 {
     font-family: 'Open Sans Condensed', sans-serif;
