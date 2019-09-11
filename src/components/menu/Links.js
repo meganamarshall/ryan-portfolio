@@ -25,22 +25,24 @@ const links = [
   }
 ];
 
-function Links({ section }) {
+function Links({ section, visibleId, onClick }) {
   const linkList = links.map(link => (
-    <p className="linksList" key={link.id} >
+    <p className="linksList" key={link.id} visibleId={visibleId} onClick={onClick} >
       <Link link={link} />
     </p>
   ));
   return (
     <>
-    <h1>{section.title}</h1>
-    {linkList}
+      <h1 onClick={() => onClick(section.id)}>{section.title}</h1>
+      {visibleId === section.id && <p>{linkList}</p>}
     </>
   );
 }
 
 Links.propTypes = {
-  section: PropTypes.object.isRequired
+  section: PropTypes.object.isRequired,
+  visibleId: PropTypes.number,
+  onClick: PropTypes.func.isRequired
 };
 
 export default Links;
