@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 function Link({ link }) {
   return (
-    <a href={link.url}>{link.title}</a>
+    <li className="one-link">
+      <img className="albumCover" src={link.image}></img>
+      <a href={link.url}>{link.title}</a>
+    </li>
   );
 }
 

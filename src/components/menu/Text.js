@@ -5,7 +5,7 @@ function Text({ text }) {
   return (
     <section>
       <p className="text-p">{text.paragraph}</p>
-      <p className="attribution">{text.person}{text.pub}</p>
+      {text.person && <p className="attribution">- {text.person}, {text.pub}</p>}
     </section>
   );
 }

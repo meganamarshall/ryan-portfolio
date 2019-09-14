@@ -6,35 +6,39 @@ const links = [
   {
     id: 1,
     title: 'Atrophy Torque Fly',
-    url: 'ambitionsound.bandcamp.com/releases'
+    url: 'http://www.ambitionsound.bandcamp.com/releases',
+    image: '../../../assets/atrophy.jpg'
   },
   {
     id: 2,
     title: 'Ryan Miller',
-    url: 'ryanamiller.bandcamp.com'
+    url: 'http://www.ryanamiller.bandcamp.com',
+    image: '../../../assets/ryansolo.jpg'
   },
   {
     id: 3,
     title: 'With Eyes Abstract',
-    url: 'witheyesabstract.bandcamp.com'
+    url: 'http://www.witheyesabstract.bandcamp.com',
+    image: '../../../assets/abstract.jpg'
   },
   {
     id: 4,
     title: 'U Sco',
-    url: 'usco.bandcamp.com'
+    url: 'http://www.usco.bandcamp.com',
+    image: '../../../assets/usco.jpg'
   }
 ];
 
 function Links({ section, visibleId, onClick }) {
   const linkList = links.map(link => (
-    <p className="linksList" key={link.id} visibleId={visibleId} onClick={onClick} >
+    <section className="linksList" key={link.id} >
       <Link link={link} />
-    </p>
+    </section>
   ));
   return (
     <>
       <h1 onClick={() => onClick(section.id)}>{section.title}</h1>
-      {visibleId === section.id && <p>{linkList}</p>}
+      {visibleId === section.id && <section>{linkList}</section>}
     </>
   );
 }

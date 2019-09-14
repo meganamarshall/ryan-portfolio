@@ -4,7 +4,7 @@ import Text from './Text';
 
 function Texts({ texts, section, visibleId, onClick }) {
   const textBody = texts.map(text => (
-    <li className="text-paragraph" key={text.id} visibleId={visibleId} onClick={onClick}>
+    <li className="text-paragraph" key={text.id} onClick={onClick}>
       <Text text={text} />
     </li>
   ));
@@ -12,7 +12,7 @@ function Texts({ texts, section, visibleId, onClick }) {
   return (
     <>
     <h1 onClick={() => onClick(section.id)}>{section.title}</h1>
-    {visibleId === section.id && <p>{textBody}</p>}
+    {visibleId === section.id && <section>{textBody}</section>}
     </>
   );
 }

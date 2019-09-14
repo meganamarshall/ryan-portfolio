@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Links from '../components/menu/Links';
+import ContactInfo from '../components/menu/ContactInfo';
 import LinksStyled from '../styles/LinksStyled';
 
-class Music extends Component {
+class Contact extends Component {
   static propTypes = {
-    music: PropTypes.array.isRequired,
     section: PropTypes.object.isRequired,
     visibleId: PropTypes.number,
     onClick: PropTypes.func.isRequired
@@ -14,10 +13,10 @@ class Music extends Component {
   render() {
     return (
       <LinksStyled>
-        <Links links={this.props.music} section={this.props.section} visibleId={this.props.visibleId} onClick={this.props.onClick} />
+        <ContactInfo section={this.props.section} visibleId={this.props.visibleId} onClick={this.props.onClick} />
       </LinksStyled>
     );
   }
 }
 
-export default Music;
+export default Contact;
