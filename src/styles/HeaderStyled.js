@@ -7,13 +7,13 @@ const HeaderStyled = styled.header `
   flex-direction: row;
   font-family: 'Playfair Display', serif;
   flex-wrap: wrap;
-  font-size: 3.5em;
+  font-size: 4em;
 
   h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Libre Caslon Display', serif;
     align-items: flex-end;
     justify-content: flex-end;
-    font-size: .7em;
+    font-size: .6em;
   }
 `;
 

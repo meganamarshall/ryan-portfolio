@@ -5,7 +5,7 @@ export const sections = [
   },
   {
     id: 2,
-    title: 'Music'
+    title: 'Listen'
   },
   {
     id: 3,

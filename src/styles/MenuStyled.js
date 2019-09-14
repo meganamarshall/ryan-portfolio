@@ -2,20 +2,17 @@ import styled from 'styled-components';
 
 const MenuStyled = styled.ul `
   list-style-type: none;
+  text-decoration: none;
   display: flex;
-  justify-content: space-around; 
   flex-direction: column; 
   align-items: center;
-  font-family: 'Playfair Display', serif;
+
+  h1 {
+    font-family: 'Libre Caslon Display', serif;
+    list-style-type: none;
+  }
+
   
-  .title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .content {
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
 `;
 
 export default MenuStyled;
