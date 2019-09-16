@@ -6,7 +6,7 @@ const MenuStyled = styled.ul `
   display: flex;
   flex-direction: row; 
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
 
   h1 {
     font-family: 'Libre Caslon Display', serif;
