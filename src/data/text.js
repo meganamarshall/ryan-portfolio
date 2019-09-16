@@ -19,7 +19,7 @@ export const quotes = [
   },
   {
     id: 4,
-    paragraph: 'Ryan Miller’s interpretation of the guitar fretboard is boundless and exhilarating, and drummer Phil Cleary commands the kit with both restraint and frenzy. Treffpunkt teeters on the edge of chaos, tip-toeing on the brink of abstraction, while keeping rooted in its composition. Their creatively is tireless and the tracks pass too quickly, a difficult feat considering their intricacies. While every song on Treffpunkt is unique, they blend into the same style, which makes it difficult to single out a favorite, although “Iguana House” is notably scathing. Simply put, every track has something fantastic to offer.',
+    paragraph: 'Ryan Miller’s interpretation of the guitar fretboard is boundless and exhilarating, and drummer Phil Cleary commands the kit with both restraint and frenzy. Treffpunkt teeters on the edge of chaos, tip-toeing on the brink of abstraction, while keeping rooted in its composition. Their creativity is tireless and the tracks pass too quickly, a difficult feat considering their intricacies. While every song on Treffpunkt is unique, they blend into the same style, which makes it difficult to single out a favorite, although “Iguana House” is notably scathing. Simply put, every track has something fantastic to offer.',
     person: 'Aaron Maltz',
     pub: 'Invisible Oranges'
   }

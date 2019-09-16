@@ -1,19 +1,19 @@
 export const sections = [
   {
     id: 1,
-    title: 'Bio'
+    title: 'bio'
   },
   {
     id: 2,
-    title: 'Listen'
+    title: 'listen'
   },
   {
     id: 3,
-    title: 'Press'
+    title: 'press'
   },
   {
     id: 4,
-    title: 'Contact Ryan',
+    title: 'contact',
     content: 'ryanalbertmiller@gmail.com'
   }
 ];

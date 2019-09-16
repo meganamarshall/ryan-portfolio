@@ -5,9 +5,9 @@ const HeaderStyled = styled.header `
   justify-content: center;
   align-items: flex-end;
   flex-direction: row;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   flex-wrap: wrap;
-  font-size: 4em;
+  font-size: 3.5em;
 
   h2 {
     font-family: 'Libre Caslon Display', serif;

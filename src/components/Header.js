@@ -4,8 +4,8 @@ import HeaderStyled from '../styles/HeaderStyled';
 function Header() {
   return (
     <HeaderStyled>
-      <h1>Ryan Miller</h1>
-      <h2>Guitarist</h2>
+      <h1>ryan albert miller</h1>
+      <h2>guitarist</h2>
     </HeaderStyled>
   );
 }

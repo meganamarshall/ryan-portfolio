@@ -4,14 +4,16 @@ const PressStyled = styled.ul `
   list-style-type: none;
 
   .text-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin-top: 20px;
-    font-style: italic;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.3em;
+    margin-top: 30px;
   }
   .attribution {
-    font-family: 'Libre Caslon Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 1.1em;
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 `;
 
