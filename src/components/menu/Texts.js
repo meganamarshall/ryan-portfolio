@@ -12,7 +12,7 @@ function Texts({ texts, section, visibleId, onClick }) {
   return (
     <>
     <h1 onClick={() => onClick(section.id)}>{section.title}</h1>
-    {visibleId === section.id && <section>{textBody}</section>}
+    {visibleId === section.id && <ul>{textBody}</ul>}
     </>
   );
 }

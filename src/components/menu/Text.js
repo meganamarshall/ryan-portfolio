@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 
 function Text({ text }) {
   return (
-    <section>
-      <p className="text-p">{text.paragraph}</p>
+    <>
+      {text.paragraph && <p className="text-p">{text.paragraph}</p>}
+      {text.image && <img src={text.image}></img>}
       {text.person && <p className="attribution">- {text.person}, {text.pub}</p>}
-    </section>
+    </>
   );
 }
 
