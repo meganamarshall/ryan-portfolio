@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const PressStyled = styled.ul `
+const PressStyled = styled.section `
   list-style-type: none;
 
   .text-p {
@@ -12,7 +12,7 @@ const PressStyled = styled.ul `
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.1em;
-    margin-top: -10px;
+    margin-top: 5px;
     margin-left: 20px;
   }
 `;

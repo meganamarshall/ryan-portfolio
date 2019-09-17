@@ -7,7 +7,8 @@ const HeaderStyled = styled.header `
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
   flex-wrap: wrap;
-  font-size: 3.5em;
+  font-size: 5em;
+  padding: 20px;
 
   h2 {
     font-family: 'Libre Caslon Display', serif;
