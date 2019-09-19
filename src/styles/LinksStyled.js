@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-const LinksStyled = styled.section `
+const LinksStyled = styled.div `
+  ul {
+    margin-top: 10vh;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: flex-row;
-    justify-content: center;
+    align-items: center;
 
-    .one-link {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: flex-row;
-      padding: 5px;
-    }
+  }
+
+  li {
+  }
 `;
 
 export default LinksStyled;

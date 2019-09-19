@@ -5,11 +5,14 @@ const BioStyled = styled.section `
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
 
   .text-p {
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.3em;
-    margin-top: 30px;
+    margin-top: 3vh;
   }
 
   img {
@@ -17,7 +20,7 @@ const BioStyled = styled.section `
     height: 40vh;
     width: auto;
     float: right;
-    margin-top: 30px;
+    margin: 3vh;
   }
 `;
 

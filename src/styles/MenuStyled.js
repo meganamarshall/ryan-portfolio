@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 
 const MenuStyled = styled.section `
-  list-style-type: none;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row; 
-  align-items: flex-start;
-  justify-content: space-around;
-  position: sticky;
+  div {
+    position: static;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 
   h1 {
     font-family: 'Libre Caslon Display', serif;
