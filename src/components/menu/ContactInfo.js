@@ -5,8 +5,7 @@ function ContactInfo({ section, visibleId, onClick }) {
   
   return (
     <>
-      <h1 onClick={() => onClick(section.id)}>{section.title}</h1>
-      {visibleId === section.id && <section>{section.content}</section>}
+      {visibleId === section.id && <section onClick={() => onClick(section.id)}>{section.content}</section>}
     </>
   );
 }
