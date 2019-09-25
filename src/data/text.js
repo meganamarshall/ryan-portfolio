@@ -27,10 +27,6 @@ export const quotes = [
 
 export const biography = [
   {
-    id: 5,
-    image: '/assets/IMG_2644.jpeg'
-  },
-  {
     id: 1,
     paragraph: 'Portland, Oregon\'s Ryan Albert Miller is a forward-thinking guitarist, composer and improviser with a captivating new sound. An active member of Portland\'s thriving creative music scene, Ryan uniquely fuses through-composition and nonlinear rock with avant garde leanings.'
   },

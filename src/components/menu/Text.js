@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 function Text({ text }) {
   return (
     <>
-      {text.paragraph && <p className="text-p">{text.paragraph}</p>}
-      {text.image && <img src={text.image}></img>}
+      <p className="text-p">{text.paragraph}</p>
       {text.person && <p className="attribution">- {text.person}, {text.pub}</p>}
     </>
   );

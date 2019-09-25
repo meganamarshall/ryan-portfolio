@@ -14,6 +14,7 @@ export const sections = [
   {
     id: 4,
     title: 'contact',
-    content: 'ryanalbertmiller@gmail.com'
+    content: 'ryanalbertmiller@gmail.com',
+    icon: './src/assets/icons8-instagram-100.png'
   }
 ];
