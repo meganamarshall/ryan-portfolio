@@ -26,7 +26,7 @@ const WidgetStyled = styled.section `
   justify-content: center;
   align-content: center;
   overflow: hidden;
-  border: 0px;
+  border: none;
 `;
 
 export default WidgetStyled;

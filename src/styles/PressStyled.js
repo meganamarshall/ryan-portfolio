@@ -9,7 +9,7 @@ const PressStyled = styled.section `
   .text-p {
     margin-bottom: 1vh;
   }
-  
+
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -49,6 +49,9 @@ const PressStyled = styled.section `
     margin-left: 20px;
   }
 
+  ul {
+    list-style-type: none;
+  }
 `;
 
 export default PressStyled;

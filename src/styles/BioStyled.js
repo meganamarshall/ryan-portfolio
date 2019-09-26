@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 
 const BioStyled = styled.section `
-@media (min-width:300px) and (max-width:767px) {
-   margin-bottom: 3vh;
-   margin-top: 5vh;
-}
+  @media (min-width:300px) and (max-width:767px) {
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+  }
 
   @media (min-width:1024px) and (max-width:1366px) {
     .text-p {
     margin-bottom: 1vh;
     }
+  } 
+
+  ul {
+    list-style-type: none;
   }
-  list-style-type: none;
+  
   display: flex;
   flex-direction: column;
   align-items: center;

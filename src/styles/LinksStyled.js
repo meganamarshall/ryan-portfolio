@@ -15,6 +15,7 @@ const LinksStyled = styled.div `
   
 
   ul {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
