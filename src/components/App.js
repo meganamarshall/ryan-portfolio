@@ -8,13 +8,15 @@ import GlobalStyle from '../styles/GlobalStyle';
 
 export default function App() {
   return (
-    <section>
+    <>
       <GlobalStyle />
+    <section>
       <Header />
       <Menu />
       <VideoPic />
       <Widget />
       <Footer />
     </section>
+    </>
   );
 }
