@@ -2,18 +2,28 @@ import styled from 'styled-components';
 
 
 const WidgetStyled = styled.section `
-  @media (min-width:1024px) and (max-width:1366px) {
+  @media (min-width:300px) and (max-width:1023px) {
+    iframe {
+     margin-top: 10vh;
+     width: 90vw;
+     height: 400px;
+    }
+  }
+  
+  @media (min-width:1024px) {
     margin-top: 1vh;
+
+    iframe {
+      margin-top: 10vh;
+      width: 90vw;
+      height: 400px;
+     }
   }
 
-  @media (min-width:360px) and (max-width:414px) {
-    margin-top: 2vh;
-  }
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
   align-content: center;
   overflow: hidden;
   border: 0px;

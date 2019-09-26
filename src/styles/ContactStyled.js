@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
 const ContactStyled = styled.div `
-  .contact {
+  @media (min-width:300px) and (max-width:640px) {
+      font-size: 1.2 em; 
+  }
+
+  @media (min-width:641px) {
     font-size: 1.7em;
+  }
+
+  .contact {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -22,6 +29,10 @@ const ContactStyled = styled.div `
   a:hover {
     color: #19647E;
   }
+
+  margin-top: 1vh;
+  margin-bottom: 7vh;
+
 `;
 
 export default ContactStyled;
