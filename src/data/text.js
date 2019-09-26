@@ -32,7 +32,7 @@ export const biography = [
   },
   {
     id: 2,
-    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument, he concentrated his efforts on composition and non-traditional techniques.'
+    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument, he concentrated his efforts on composition and non-traditional techniques. Active collaborations include: U SCO (New Atlantis Records), Teton (Pretty Purgatory), and Embedded Star Ensemble.”'
   },
   {
     id: 3,
