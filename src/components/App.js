@@ -9,13 +9,12 @@ import GlobalStyle from '../styles/GlobalStyle';
 export default function App() {
   return (
     <section>
-      <GlobalStyle>
-        <Header />
-        <Menu />
-        <VideoPic />
-        <Widget />
-        <Footer />
-      </GlobalStyle>
+      <GlobalStyle />
+      <Header />
+      <Menu />
+      <VideoPic />
+      <Widget />
+      <Footer />
     </section>
   );
 }
