@@ -14,6 +14,7 @@ const BioStyled = styled.section `
 
   ul {
     list-style-type: none;
+    padding: none;
   }
   
   display: flex;

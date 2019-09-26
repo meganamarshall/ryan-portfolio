@@ -51,6 +51,7 @@ const PressStyled = styled.section `
 
   ul {
     list-style-type: none;
+    padding: none;
   }
 `;
 

@@ -24,6 +24,7 @@ const LinksStyled = styled.div `
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    padding: none;
   }
 
 @keyframes fadeInAnimation { 
