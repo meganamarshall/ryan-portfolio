@@ -9,31 +9,26 @@ const PressStyled = styled.section `
   .text-p {
     margin-bottom: 1vh;
   }
-
-  margin-left: 10vw;
-  margin-right: 10vw;
 }
 
 @media (min-width:1024px) and (max-width:1366px) {
   .attribution {
-    margin-bottom: 1.5vh;
+    margin-bottom: 5vh;
   }
 
   .text-p {
-    margin-bottom: .5vh;
+    margin-bottom: 2vh;
   }
-
-  margin-left: 10vw;
-  margin-right: 10vw;
 }
 
 @media (min-width:1367px) {
-  .text-p {
-    margin-bottom: 3vh;
+  .attribution {
+    margin-bottom: 5vh;
   }
 
-  margin-left: 10vw;
-  margin-right: 10vw;
+  .text-p {
+    margin-bottom: 2vh;
+  }
 }
 
   .text-p {
@@ -53,6 +48,9 @@ const PressStyled = styled.section `
     list-style-type: none;
     padding: none;
   }
+
+  margin-left: 10vw;
+  margin-right: 10vw;
 `;
 
 export default PressStyled;
