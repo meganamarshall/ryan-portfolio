@@ -27,7 +27,7 @@ const HeaderStyled = styled.header `
     display: flex;
     flex-direction: row;
     padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
     justify-content: center;
     align-items: flex-end;
 

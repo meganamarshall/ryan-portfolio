@@ -32,7 +32,7 @@ export const biography = [
   },
   {
     id: 2,
-    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument. he concentrated his efforts on composition and alternate techniques. Ryan currently performs and composes music for the longstanding trio U Sco (New Atlantis Records), Teton (Pretty Purgatory) and for solo guitar.'
+    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument, he concentrated his efforts on composition and non-traditional techniques.'
   },
   {
     id: 3,

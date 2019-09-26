@@ -10,14 +10,14 @@ const MenuStyled = styled.div `
   @media (min-width:768px) and (max-width:1023px) {
     h1 {
       margin-top: 1vh;
-      margin-bottom: 5vh;
+      margin-bottom: 10vh;
     }
   }
 
   @media (min-width:1024px) {
     h1 {
       margin-top: 1vh;
-      margin-bottom: 5vh;
+      margin-bottom: 10vh;
     }
   }
   section {
