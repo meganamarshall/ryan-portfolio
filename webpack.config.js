@@ -20,7 +20,7 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './src/favicon.ico' },
     ]),
-    new FaviconsWebpackPlugin('/src/favicon.ico')
+    new FaviconsWebpackPlugin('./src/favicon.ico')
   ],
   module: {
     rules: [
