@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BioStyled = styled.section `
-  @media (min-width:300px) and (max-width:767px) {
+  @media (min-width:300px) and (max-width:1023px) {
     margin-bottom: 3vh;
     margin-top: 5vh;
   }
