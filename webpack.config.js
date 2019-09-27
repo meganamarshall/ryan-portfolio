@@ -1,6 +1,7 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 // eslint-disable-next-line
 module.exports = {
@@ -17,8 +18,9 @@ module.exports = {
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin([
-      { from: './assets/favicon.ico' },
-    ])
+      { from: './src/favicon.ico' },
+    ]),
+    new FaviconsWebpackPlugin('/src/favicon.ico')
   ],
   module: {
     rules: [
