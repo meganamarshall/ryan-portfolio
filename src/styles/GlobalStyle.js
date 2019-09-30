@@ -49,7 +49,10 @@ const GlobalStyle = createGlobalStyle `
     border-collapse: collapse;
     border-spacing: 0;
   }
-
+  
+  * {
+    background-color: rgb(197, 168, 49);
+  }
   `;
 
-export default GlobalStyle;
+  export default GlobalStyle;
