@@ -49,9 +49,19 @@ const GlobalStyle = createGlobalStyle `
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  @media (min-width:950px) {
+    * {
+      background-color: white;
+    }
+  }
   
+  @media (max-width:949px) {
+    * {
+      background-color: rgb(197, 168, 49);
+    }
+  }
   * {
-    background-color: rgb(197, 168, 49);
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
