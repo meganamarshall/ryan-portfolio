@@ -50,11 +50,11 @@ const GlobalStyle = createGlobalStyle `
     border-spacing: 0;
   }
 
-  @media (min-width:950px) {
-    * {
-      background-color: white;
-    }
+  
+  * {
+    background-color: rgb(197, 168, 49);
   }
+  
   
   @media (max-width:949px) {
     * {
