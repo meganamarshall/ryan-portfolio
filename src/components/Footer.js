@@ -4,7 +4,7 @@ import FooterStyled from '../styles/FooterStyled';
 function Footer() {
   return (
     <FooterStyled>
-      &copy; mam 2019
+      &copy; 2020
     </FooterStyled>
   );
 }

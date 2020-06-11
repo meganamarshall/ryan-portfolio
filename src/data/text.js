@@ -32,14 +32,10 @@ export const biography = [
   },
   {
     id: 2,
-    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument, he concentrated his efforts on composition and non-traditional techniques. Active collaborations include: U SCO (New Atlantis Records), Teton (Pretty Purgatory), and Embedded Star Ensemble.”'
+    paragraph: 'Born in 1985, Ryan began playing guitar after a life-altering battle with cancer when he was 12 years old. After quickly connecting to the instrument, he concentrated his efforts on composition and non-traditional techniques. Active collaborations include: U SCO (New Atlantis Records), Teton (Pretty Purgatory), and Embedded Star Ensemble.'
   },
   {
     id: 3,
     paragraph: 'Released in November 2018 on Ambition Sound Records, Atrophy Torque Fly is Ryan’s second solo release; a follow up to 2011’s Hex Fortunes. Atrophy Torque Fly fuses through-composition & improvisation featuring frequent collaborators: Noah Bernstein (Alto Sax), Andrew Jones (Upright) & Philip Cleary (Drumset).'
-  },
-  {
-    id: 4,
-    paragraph: '"The music that I compose is always a stream of consciousness, albeit refined by incessant development and practice. Hex Fortunes is one 25 minute composition, divided into 4 suites. Atrophy Torque Fly is approximately 40 minutes of music and 9 compositions that I\'ve been developing over the last 7 years."'
   }
 ];
