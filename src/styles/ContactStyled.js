@@ -10,7 +10,7 @@ const ContactStyled = styled.div `
   }
 
   .contact {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

@@ -5,7 +5,7 @@ const FooterStyled = styled.footer `
     margin-top: 5vh;
   }
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   height: 7vh;
   display: flex;
   align-items: flex-end;

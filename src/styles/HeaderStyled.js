@@ -11,7 +11,7 @@ const HeaderStyled = styled.header `
 
       h1 {
         display: flex;
-        font-size: 4em;
+        font-size: 4.5em;
         justify-content: flex-start;
       }
       h2 {
@@ -64,7 +64,7 @@ const HeaderStyled = styled.header `
     }
   }
   
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   flex-wrap: wrap;
 
 `;

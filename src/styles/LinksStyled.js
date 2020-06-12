@@ -4,12 +4,14 @@ const LinksStyled = styled.div `
   @media (min-width:300px) and (max-width:1023px) {
     li {
       margin: 1vh;
+      border-radius: 3px;
     }
   }
 
   @media (min-width:1024px) {
     li {
       margin: 3vh;
+      border-radius: 3px;
     }
   }
   

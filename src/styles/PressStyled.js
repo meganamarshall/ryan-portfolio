@@ -12,10 +12,10 @@ const PressStyled = styled.section `
 }
 
 @media (min-width:1024px) and (max-width:1366px) {
+
   .attribution {
     margin-bottom: 5vh;
   }
-
   .text-p {
     margin-bottom: 2vh;
   }
@@ -25,7 +25,6 @@ const PressStyled = styled.section `
   .attribution {
     margin-bottom: 5vh;
   }
-
   .text-p {
     margin-bottom: 2vh;
   }
@@ -37,7 +36,7 @@ const PressStyled = styled.section `
   }
 
   .attribution {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-style: italic;
     font-size: 1.1em;
     margin-top: 5px;
